@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marriage Biodata - Rahebar Khan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #fcd34d;
+      text-align: center;
+    }
+    .bismillah {
+      font-size: 1.2rem;
+      text-align: center;
+      font-style: italic;
+      color: #facc15;
+      margin-bottom: 1rem;
+    }
+    .toggle {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .toggle button {
+      background: #facc15;
+      color: #1e1e1e;
+      border: none;
+      padding: 0.5rem 1.5rem;
+      margin: 0 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    .urdu {
+      display: none;
+      direction: rtl;
+      font-family: 'Noto Nastaliq Urdu', serif;
+    }
+    .label {
+      color: #fcd34d;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</div>
+    <h1>Marriage Biodata</h1>
+    <div class="toggle">
+      <button onclick="showLang('english')">English</button>
+      <button onclick="showLang('urdu')">Urdu</button>
+    </div><!-- English Section -->
+<div class="english">
+  <div class="section"><span class="label">Name:</span> Rahebar Khan</div>
+  <div class="section"><span class="label">Father's Name:</span> Akhtar Khan (Retired Engineer, MSEB)</div>
+  <div class="section"><span class="label">Mother's Name:</span> Seema Khan (Homemaker, owns small gift and ladies clothing business)</div>
+  <div class="section"><span class="label">Sibling:</span> Sanobar Khan (Sister, Final Year BDS)</div>
+  <div class="section"><span class="label">Profession:</span> System Engineer at TCS (CTC: ₹8.9 LPA)</div>
+  <div class="section"><span class="label">Education:</span> Graduate</div>
+  <div class="section"><span class="label">Height:</span> 5 ft 10 in</div>
+  <div class="section"><span class="label">Complexion:</span> Gerua (गेरुआ - Hindi)</div>
+  <div class="section"><span class="label">Hobbies:</span> Photography and Travelling</div>
+  <div class="section"><span class="label">Current Residence:</span> Pune, Maharashtra</div>
+  <div class="section"><span class="label">Family Residence:</span> Malkapur Pangra, Maharashtra</div>
+  <div class="section"><span class="label">Religious Belief:</span> Practicing Muslim</div>
+  <div class="section"><span class="label">Contact:</span> rahebar.khan@example.com | +91-XXXXXXXXXX</div>
+</div>
+
+<!-- Urdu Section -->
+<div class="urdu">
+  <div class="section"><span class="label">نام:</span> راہبر خان</div>
+  <div class="section"><span class="label">والد کا نام:</span> اختر خان (ریٹائرڈ انجینئر، ایم ایس ای بی)</div>
+  <div class="section"><span class="label">والدہ کا نام:</span> سیماء خان (گھریلو خاتون، چھوٹا تحفہ اور خواتین کے کپڑوں کا کاروبار)</div>
+  <div class="section"><span class="label">بہن:</span> صنوبَر خان (بی ڈی ایس، آخری سال)</div>
+  <div class="section"><span class="label">پیشہ:</span> سسٹم انجینئر، ٹی سی ایس (پیکیج: ₹8.9 لاکھ سالانہ)</div>
+  <div class="section"><span class="label">تعلیم:</span> گریجویٹ</div>
+  <div class="section"><span class="label">قد:</span> ۵ فٹ ۱۰ انچ</div>
+  <div class="section"><span class="label">رنگت:</span> گہرا گندمی (گِروہ)</div>
+  <div class="section"><span class="label">مشاغل:</span> فوٹوگرافی اور سفر کرنا</div>
+  <div class="section"><span class="label">موجودہ رہائش:</span> پونے، مہاراشٹر</div>
+  <div class="section"><span class="label">خاندانی رہائش:</span> مالا پور پنگرہ، مہاراشٹر</div>
+  <div class="section"><span class="label">مذہب:</span> دیندار مسلمان</div>
+  <div class="section"><span class="label">رابطہ:</span> rahebar.khan@example.com | +۹۱-XXXXXXXXXX</div>
+</div>
+
+<div class="footer">May Allah grant us what is best - In shaa Allah</div>
+
+  </div>  <script>
+    function showLang(lang) {
+      document.querySelector('.english').style.display = lang === 'english' ? 'block' : 'none';
+      document.querySelector('.urdu').style.display = lang === 'urdu' ? 'block' : 'none';
+    }
+    showLang('english');
+  </script></body>
+</html>
